@@ -16,7 +16,7 @@ const addManager = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'Who is the manager of this team?',
+            message: "Please enter the team Manager's name.",
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -32,7 +32,7 @@ const addManager = () => {
             message: "Please enter the manager's ID.",
             validate: nameInput => {
                 if (isNaN(nameInput)) {
-                    console.log("Please enter the manager's ID!")
+                    console.log("Please enter the team manager's ID!")
                     return false;
                 } else {
                     return true;
@@ -42,7 +42,7 @@ const addManager = () => {
         {
             type: 'input',
             name: 'email',
-            message: "Please enter the manager's email.",
+            message: "Please enter the team manager's email.",
             validate: email => {
                 valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
                 if (valid) {
@@ -56,7 +56,7 @@ const addManager = () => {
         {
             type: 'input',
             name: 'officeNumber',
-            message: "Please enter the manager's office number",
+            message: "Please enter the team manager's office number",
             validate: nameInput => {
                 if (isNaN(nameInput)) {
                     console.log('Please enter an office number!')
@@ -194,14 +194,14 @@ const addEmployee = () => {
 
 // Function to save generated HTML to index.html
 const writeFile = data => {
-    fs.writeFile('./dist/index.html', data, err => {
+    fs.writeFile('./dist/team.html', data, err => {
         // Return error on failed process 
         if (err) {
             console.log(err);
             return;
             // Success message on successful write
         } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
+            console.log("Your team profile has been successfully created! Please check out the team.html")
         }
     })
 };
