@@ -1,9 +1,9 @@
-# README Generator 
+# Team Profile Generator 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
 ## Description  
 <a name="descrip"></a>
-A command line application to easily and efficiently generate professional README files with minimal knowledge of markdown formatting. 
+A team profile generator powered by node and inquirer. 
  
 ## Table of Contents 
 - [Description](#description)
@@ -18,44 +18,36 @@ A command line application to easily and efficiently generate professional READM
 
 - [License](#license) 
 
-- [Credits](#credits)
-
 - [Questions](#questions) 
 
  
 ## Installation Instructions 
 <a name="instr"></a> 
  
->To install this application, use Git Bash to clone this project's repo to your local machine. If there are any issues cloning the repo, refer to the GitHub docs: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository 
+>Clone the associated repository to your local machine and run npm i to set up the program. 
  
 ## Usage information 
 <a name="usage"></a>  
  
->After cloning down the repo for this project and installing VS Code and Node, open the repo directory in VS Code. After opening VS Code, open an integrated Git Bash terminal and run the command "node index.js." This will run the prompts to create a new file and output the created file to the output folder. Keep in mind that there is only one output file present in the folder at any given time, and the file should be copied before running the program again to prevent overwriting. 
+>To use this application, execute npm run start in your console via VS Code. After doing this you will be prompted to insert information via inquirer. After you complete all of the required prompts to generate your team profile, the program will automatically output the result to the dist folder. 
  
 ## Contribution Guidelines 
 <a name="contribution"></a>  
  
->If you wish to contribute to the project 
+>N/A 
  
 ## Test Instructions 
 <a name="testing"></a>  
  
->There are no test cases written for this application. 
+>To test this program, install jest globally and execute the jest command in the console, the tests for employee classes will automatically run. 
  
 ## License 
-<a name="licence"></a> 
-
->This software is licensed under the MIT License, for further information or to read the documentation, visit (https://opensource.org/licenses/MIT).
-
-## Credits
-<a name="credits"></a>
+<a name="licence"></a>  
+>This software is licensed under the MIT License, for further information or to read the documentation, visit (https://opensource.org/licenses/MIT). 
  
->Credit to Brandon Knight for the idea to use switch cases for this project, check out his GitHub for more: https://github.com/blksmk8483
-
-## Questions
+## Questions 
 <a name="questions"></a> 
 
->If you have any questions please check the issue for the associated repo at my github account: dcodner24
+>If you have any questions please check the issue for the associated repo at my github account: dcodner24 
 
 >For any additional questions, feel free to contact me at my work email: dccodner24@gmail.com
